@@ -23,7 +23,7 @@ app.get('/health', (req, res) => {
 // News routes
 app.use('/api/news', newsRouter);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 
 async function start() {
   try {
